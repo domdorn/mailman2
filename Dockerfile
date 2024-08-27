@@ -1,7 +1,7 @@
 FROM debian:buster-slim
-LABEL org.opencontainers.image.authors="d3fk::Angatar"
-LABEL org.opencontainers.image.source="https://github.com/Angatar/mailman2.git"
-LABEL org.opencontainers.image.url="https://github.com/Angatar/mailman2"
+LABEL org.opencontainers.image.authors="d3fk::Angatar::domdorn"
+LABEL org.opencontainers.image.source="https://github.com/domdorn/mailman2.git"
+LABEL org.opencontainers.image.url="https://github.com/domdorn/mailman2"
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV DEBCONF_NONINTERACTIVE_SEEN true
